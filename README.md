@@ -34,5 +34,7 @@ System that shows in real time sensor data retrieved from RaspberryPI in a Web A
 	SDK available for Javascript, therefore both graphs are shown on real-time. 
 	
 	
-	
+
+*The project folder has all the components of the software including here: programm to retrieve sensor data in Raspberry 
+which is a Python script where the Adafruit library is used, also the Java Project that shows the graphs to authenticated users (role-based app)*
 	
