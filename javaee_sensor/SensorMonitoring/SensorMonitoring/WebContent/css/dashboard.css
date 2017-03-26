@@ -1,0 +1,25 @@
+.ad {
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	border: 1px solid #ddd;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 250px;
+	z-index: 10;
+}
+.ad .close {
+	position: absolute;
+	font-family: 'ionicons';
+	width: 20px;
+	height: 20px;
+	color: #fff;
+	background-color: #999;
+	font-size: 20px;
+	left: -20px;
+	top: -1px;
+	display: table-cell;
+	vertical-align: middle;
+	cursor: pointer;
+	text-align: center;
+}

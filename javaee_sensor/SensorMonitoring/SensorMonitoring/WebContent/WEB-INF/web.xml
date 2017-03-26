@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>SensorMonitoring</display-name>
+  <welcome-file-list>
+    <welcome-file>/login/index.jsp</welcome-file>
+  </welcome-file-list> 
+  <servlet>
+  	<servlet-name>UserController</servlet-name>
+  	<servlet-class>com.administration.controller.UserController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserController</servlet-name>
+  	<url-pattern>/UserController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>validim_rregjistrimi</servlet-name>
+    <servlet-class>com.validate.validim_rregjistrimi</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>validim_rregjistrimi</servlet-name>
+    <url-pattern>/validim_rregjistrimi</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DownloadFile</servlet-name>
+    <servlet-class>com.validate.DownloadFile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DownloadFile</servlet-name>
+    <url-pattern>/DownloadFile</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DownloadData</servlet-name>
+    <servlet-class>com.validate.DownloadData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DownloadData</servlet-name>
+    <url-pattern>/DownloadData</url-pattern>
+  </servlet-mapping>
+</web-app>
