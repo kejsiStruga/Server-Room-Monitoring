@@ -27,17 +27,17 @@
         <%   	
         if(list != null) {
     	// print the information about every category of the list
-    				for(User user : list) {
-    				    out.print("<tr>");
-    				    int id = user.getId();
-    				    out.print("<td>"+id+"</td>");
-    				    out.print("<td>"+user.getFname()+"</td>");
-    				    out.print("<td>"+user.getLname()+"</td>");
-    				    out.print("<td>"+user.getEmail()+"</td>");
-    				    out.print("<td><a href=\"UserController?action=edit&id="+id+"\"/>Update</a></td>");
-    				    out.print("<td><a href=\"UserController?action=delete&id="+id+"\"/>Delete</a></td>");  
-				    out.print("</tr>")	                
-    				}
+		for(User user : list) {
+		    out.print("<tr>");
+		    int id = user.getId();
+		    out.print("<td>"+id+"</td>");
+		    out.print("<td>"+user.getFname()+"</td>");
+		    out.print("<td>"+user.getLname()+"</td>");
+		    out.print("<td>"+user.getEmail()+"</td>");
+		    out.print("<td><a href=\"UserController?action=edit&id="+id+"\"/>Update</a></td>");
+		    out.print("<td><a href=\"UserController?action=delete&id="+id+"\"/>Delete</a></td>");  
+		    out.print("</tr>")	                
+		}
         }
 		
 	   %>      
