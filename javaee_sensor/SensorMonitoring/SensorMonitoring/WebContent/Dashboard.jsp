@@ -1,12 +1,12 @@
 <%@page import="com.administration.controller.*" %>
-    <%@page import="com.administration.model.*" %>
-        <%@include file="/includes/dashboard.html" %>
-            <script src="js/main.js"></script>
-            <link href="/css/dashboard.css" rel="stylesheet" />
-            </head>
+<%@page import="com.administration.model.*" %>
+<%@include file="/includes/dashboard.html" %>
+<script src="js/main.js"></script>
+<link href="/css/dashboard.css" rel="stylesheet" />
+</head>
 
-            <body>
-                <%
+<body>
+<%
 //ne menyre qe edhe nese user-i klikon butonin Back ne Browser, cache 
 //Cache-Control is a HTTP Header that controls caching between
 //the server and client. It is set using the HttpServletResponse like
