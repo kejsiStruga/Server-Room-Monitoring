@@ -9,8 +9,8 @@
 	response.setHeader("Pragma","no-cache");
 	response.setDateHeader ("Expires", 0);
 	
-    if(session.getAttribute("authenticated")!=null){
-		   response.sendRedirect("/SensorMonitoring/Dashboard.jsp");
+	if(session.getAttribute("authenticated")!=null) {
+		response.sendRedirect("/SensorMonitoring/Dashboard.jsp");
 	}
 	else {
 		if(request.getParameter("status")!=null){
@@ -33,5 +33,7 @@
     </form>
 </div>
 </body>
-<% } %>
+<% 
+} 
+%>
 </html>
