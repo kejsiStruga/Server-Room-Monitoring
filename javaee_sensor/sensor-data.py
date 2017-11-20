@@ -36,7 +36,7 @@ def on_subscribe(mqttc, obj, mid, granted_qos):
 def on_message(mqttc, obj, msg):
     print("Received message from topic: "+msg.topic+" | QoS: "+str(msg.qos)+" | Data Received: "+str(msg.payload))
 
-#creating a client with client-id=mqtt-test
+#creating a client with client-id=raspberry-pi
 mqttc = mqtt.Client(client_id="raspberry-pi")
 
 mqttc.on_connect = on_connect
