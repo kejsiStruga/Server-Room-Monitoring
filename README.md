@@ -12,8 +12,6 @@ System that shows in real time sensor data retrieved from RaspberryPI in a Web A
         ii. IoT
         
         iii. DynamoDB
-        
-        *asterisks* or _underscores_.
   
 	3. J2EE Web App -> Java Web Application that uses the AWS SDK to show data in 2 graphs, one for each parameter of sensor
 
