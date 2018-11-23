@@ -3,7 +3,7 @@ System that shows in real time sensor data retrieved from RaspberryPI in a Web A
 
 ## This System is made up of 3 technologies:
 
-  1. RasperryPI and Sensor DHT22 (HARDWARE COMPONENTS)
+  	1. RasperryPI and Sensor DHT22 (HARDWARE COMPONENTS)
  
 	2. AWS Services 
   
