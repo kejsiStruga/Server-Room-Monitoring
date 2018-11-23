@@ -33,6 +33,7 @@ System that shows in real time sensor data retrieved from RaspberryPI in a Web A
 	
 	
 
-*The project folder has all the components of the software including here: programm to retrieve sensor data in Raspberry 
-which is a Python script where the Adafruit library is used, also the Java Project that shows the graphs to authenticated users (role-based app)*
+*The project folder has all the components of the software including here: program to retrieve sensor data in Raspberry 
+which is a Python script where the Adafruit library is used, also the Java Project that shows the graphs to authenticated users (role-based app). Unfortunately, because we used the free tier of Amazon, the web-app is not operating live*
+
 	
