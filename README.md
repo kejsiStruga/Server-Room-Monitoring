@@ -18,7 +18,7 @@ System that shows in real time sensor data retrieved from RaspberryPI in a Web A
 ## Work-Flow of the monitoring system is described below:
 
 
-  1. **RaspberryPI 3 Model B** receives data from *DHT22* which is a digital temperature and humidity sensor using the AdaFruit Library
+  	1. **RaspberryPI 3 Model B** receives data from *DHT22* which is a digital temperature and humidity sensor using the AdaFruit Library
   
 	2. This data is sent on real time via the MQTT protocol using SSL/TLS to AWS, in particular to the **AWS IoT service**, that
 	acts as a Broker, in which case the Raspberry will be considered the publisher
@@ -26,9 +26,9 @@ System that shows in real time sensor data retrieved from RaspberryPI in a Web A
 	3. While data is published on IoT the system filters the temperature and humidity , if some alarming values of each these parameteres
 	is found, then an e-mail will be sent to all specified end-points configured on **AWS SNS service**.
   
-  4. Afterwards using the AWS Rules Engine each sensor data is stored in **DynamoDB** NoSQL database in JSON format.
+  	4. Afterwards using the AWS Rules Engine each sensor data is stored in **DynamoDB** NoSQL database in JSON format.
   
-	4. Meanwhile the web application uses asynchronuous javascript to query the 10 last values stored in the DynamoDB database using the
+	5. Meanwhile the web application uses asynchronuous javascript to query the 10 last values stored in the DynamoDB database using the
 	SDK available for Javascript, therefore both graphs are shown on real-time. 
 	
 	
